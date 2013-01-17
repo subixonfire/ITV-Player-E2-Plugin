@@ -41,7 +41,7 @@ socket.setdefaulttimeout(300) #in seconds
 
 ###########################################################################
 
-class Icefilms(Screen):
+class ITVplayer(Screen):
     wsize = getDesktop(0).size().width()
     hsize = getDesktop(0).size().height()
     print "wsize " + str(wsize)
@@ -270,7 +270,7 @@ class Icefilms(Screen):
 
 def main(session, **kwargs):
     
-    burek = session.open(Icefilms)
+    burek = session.open(ITVplayer)
         
                   
 ###########################################################################    
