@@ -211,7 +211,6 @@ class Icefilms(Screen):
                 print x
             
             
-            #mp4:production/priority/rtmpecatchup/800/CB/2-1392-0052-001/2-1392-0052-001_the-x-factor-usa-(2012)_tx201212_itv800_16x9-reg.mp4
             self["myMenu"].setList(self.osdList)
             
             
